@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D22B3EDB-BBA3-4920-9EE7-735F051E8C05}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Secund</RootNamespace>
+    <AssemblyName>Secund</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AttributeRouting">
+      <HintPath>..\packages\AttributeRouting.Core.3.5.6\lib\net40\AttributeRouting.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web">
+      <HintPath>..\packages\AttributeRouting.Core.Web.3.5.6\lib\net40\AttributeRouting.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web.Http">
+      <HintPath>..\packages\AttributeRouting.Core.Http.3.5.6\lib\net40\AttributeRouting.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web.Http.WebHost">
+      <HintPath>..\packages\AttributeRouting.WebApi.3.5.6\lib\net40\AttributeRouting.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.30506.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.30506.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.30506.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.0.0.0\lib\WebActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\AttributeRoutingHttpConfig.cs" />
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="App_Start\WebApiMethods.cs" />
+    <Compile Include="Controllers\LicitacionController.cs" />
+    <Compile Include="Controllers\EntidadController.cs" />
+    <Compile Include="Controllers\EntidadConvocanteController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SesionController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Global.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\bootstrap\js\npm.js" />
+    <Content Include="Content\circle.css" />
+    <Content Include="Content\css\login.css" />
+    <Content Include="Content\img\home-fondo-amarillo.png" />
+    <Content Include="Content\img\images.png" />
+    <Content Include="Content\img\logoEnotria2.png" />
+    <Content Include="Content\metro\css\docs.css" />
+    <Content Include="Content\metro\css\metro-icons.css" />
+    <Content Include="Content\metro\css\metro-responsive.css" />
+    <Content Include="Content\metro\css\metro-rtl.css" />
+    <Content Include="Content\metro\css\metro-schemes.css" />
+    <Content Include="Content\metro\css\metro.css" />
+    <Content Include="Content\metro\fonts\metro.svg" />
+    <Content Include="Content\metro\images\1.jpg" />
+    <Content Include="Content\metro\images\2.jpg" />
+    <Content Include="Content\metro\images\3.jpg" />
+    <Content Include="Content\metro\images\4.jpg" />
+    <Content Include="Content\metro\images\5.jpg" />
+    <Content Include="Content\metro\images\access.png" />
+    <Content Include="Content\metro\images\Battlefield_4_Icon.png" />
+    <Content Include="Content\metro\images\bd-rom.png" />
+    <Content Include="Content\metro\images\bizspark_b.png" />
+    <Content Include="Content\metro\images\bizspark_b_2.png" />
+    <Content Include="Content\metro\images\Blank_Folder.png" />
+    <Content Include="Content\metro\images\Calendar-Next.png" />
+    <Content Include="Content\metro\images\Checkmark.png" />
+    <Content Include="Content\metro\images\clear-day.jpg" />
+    <Content Include="Content\metro\images\clear-night.jpg" />
+    <Content Include="Content\metro\images\clouds2.png" />
+    <Content Include="Content\metro\images\cloudy.jpg" />
+    <Content Include="Content\metro\images\Crysis-2-icon.png" />
+    <Content Include="Content\metro\images\css-logo.png" />
+    <Content Include="Content\metro\images\disk-sys.png" />
+    <Content Include="Content\metro\images\excel.png" />
+    <Content Include="Content\metro\images\flags\ak.png" />
+    <Content Include="Content\metro\images\flags\al.png" />
+    <Content Include="Content\metro\images\flags\ar.png" />
+    <Content Include="Content\metro\images\flags\az.png" />
+    <Content Include="Content\metro\images\flags\ca.png" />
+    <Content Include="Content\metro\images\flags\co.png" />
+    <Content Include="Content\metro\images\flags\ct.png" />
+    <Content Include="Content\metro\images\flags\de.png" />
+    <Content Include="Content\metro\images\flags\fl.png" />
+    <Content Include="Content\metro\images\flags\ga.png" />
+    <Content Include="Content\metro\images\flags\hi.png" />
+    <Content Include="Content\metro\images\flags\ia.png" />
+    <Content Include="Content\metro\images\flags\id.png" />
+    <Content Include="Content\metro\images\flags\il.png" />
+    <Content Include="Content\metro\images\flags\in.png" />
+    <Content Include="Content\metro\images\flags\ks.png" />
+    <Content Include="Content\metro\images\flags\ky.png" />
+    <Content Include="Content\metro\images\flags\la.png" />
+    <Content Include="Content\metro\images\flags\ma.png" />
+    <Content Include="Content\metro\images\flags\md.png" />
+    <Content Include="Content\metro\images\flags\me.png" />
+    <Content Include="Content\metro\images\flags\mi.png" />
+    <Content Include="Content\metro\images\flags\mn.png" />
+    <Content Include="Content\metro\images\flags\mo.png" />
+    <Content Include="Content\metro\images\flags\ms.png" />
+    <Content Include="Content\metro\images\flags\mt.png" />
+    <Content Include="Content\metro\images\flags\nc.png" />
+    <Content Include="Content\metro\images\flags\nd.png" />
+    <Content Include="Content\metro\images\flags\ne.png" />
+    <Content Include="Content\metro\images\flags\nh.png" />
+    <Content Include="Content\metro\images\flags\nj.png" />
+    <Content Include="Content\metro\images\flags\nm.png" />
+    <Content Include="Content\metro\images\flags\nv.png" />
+    <Content Include="Content\metro\images\flags\ny.png" />
+    <Content Include="Content\metro\images\flags\oh.png" />
+    <Content Include="Content\metro\images\flags\ok.png" />
+    <Content Include="Content\metro\images\flags\or.png" />
+    <Content Include="Content\metro\images\flags\pa.png" />
+    <Content Include="Content\metro\images\flags\ri.png" />
+    <Content Include="Content\metro\images\flags\sc.png" />
+    <Content Include="Content\metro\images\flags\sd.png" />
+    <Content Include="Content\metro\images\flags\tn.png" />
+    <Content Include="Content\metro\images\flags\tx.png" />
+    <Content Include="Content\metro\images\flags\ut.png" />
+    <Content Include="Content\metro\images\flags\va.png" />
+    <Content Include="Content\metro\images\flags\vt.png" />
+    <Content Include="Content\metro\images\flags\wa.png" />
+    <Content Include="Content\metro\images\flags\wi.png" />
+    <Content Include="Content\metro\images\flags\wv.png" />
+    <Content Include="Content\metro\images\flags\wy.png" />
+    <Content Include="Content\metro\images\fog.jpg" />
+    <Content Include="Content\metro\images\folder-documents.png" />
+    <Content Include="Content\metro\images\folder-downloads.png" />
+    <Content Include="Content\metro\images\folder-images.png" />
+    <Content Include="Content\metro\images\folder-music.png" />
+    <Content Include="Content\metro\images\Folder-Rename.png" />
+    <Content Include="Content\metro\images\folder-videos.png" />
+    <Content Include="Content\metro\images\folder_with_file.png" />
+    <Content Include="Content\metro\images\grid2.jpg" />
+    <Content Include="Content\metro\images\group.png" />
+    <Content Include="Content\metro\images\halo.jpg" />
+    <Content Include="Content\metro\images\hard-drive.png" />
+    <Content Include="Content\metro\images\home.png" />
+    <Content Include="Content\metro\images\icon-minus.png" />
+    <Content Include="Content\metro\images\icon-plus.png" />
+    <Content Include="Content\metro\images\jeki_chan.jpg" />
+    <Content Include="Content\metro\images\jek_vorobey.jpg" />
+    <Content Include="Content\metro\images\jetbrains.png" />
+    <Content Include="Content\metro\images\jolie.jpg" />
+    <Content Include="Content\metro\images\live1.jpg" />
+    <Content Include="Content\metro\images\live2.jpg" />
+    <Content Include="Content\metro\images\location.png" />
+    <Content Include="Content\metro\images\me.jpg" />
+    <Content Include="Content\metro\images\Metro_author_100x20.png" />
+    <Content Include="Content\metro\images\Metro_member_100x20.png" />
+    <Content Include="Content\metro\images\Metro_moster_100x20.png" />
+    <Content Include="Content\metro\images\Metro_unior_100x20.png" />
+    <Content Include="Content\metro\images\me_150.jpg" />
+    <Content Include="Content\metro\images\MSFT_logo_png.png" />
+    <Content Include="Content\metro\images\myface.jpg" />
+    <Content Include="Content\metro\images\Notebook-Save.png" />
+    <Content Include="Content\metro\images\obama.jpg" />
+    <Content Include="Content\metro\images\onenote.png" />
+    <Content Include="Content\metro\images\org-01.png" />
+    <Content Include="Content\metro\images\outlook.png" />
+    <Content Include="Content\metro\images\partly-cloudy-day.jpg" />
+    <Content Include="Content\metro\images\partly-cloudy-night.jpg" />
+    <Content Include="Content\metro\images\photo_album.png" />
+    <Content Include="Content\metro\images\phpstorm_7_eap.png" />
+    <Content Include="Content\metro\images\power.png" />
+    <Content Include="Content\metro\images\powerpoint.png" />
+    <Content Include="Content\metro\images\rain.jpg" />
+    <Content Include="Content\metro\images\round.png" />
+    <Content Include="Content\metro\images\shvarcenegger.jpg" />
+    <Content Include="Content\metro\images\sleet.jpg" />
+    <Content Include="Content\metro\images\snow.jpg" />
+    <Content Include="Content\metro\images\spface.jpg" />
+    <Content Include="Content\metro\images\spface2.jpg" />
+    <Content Include="Content\metro\images\toggle-minus.png" />
+    <Content Include="Content\metro\images\user.png" />
+    <Content Include="Content\metro\images\vin_d.jpg" />
+    <Content Include="Content\metro\images\whats-new.jpg" />
+    <Content Include="Content\metro\images\wind.jpg" />
+    <Content Include="Content\metro\images\wn8.png" />
+    <Content Include="Content\metro\images\word.png" />
+    <Content Include="Content\metro\images\WorldofTanks.png" />
+    <Content Include="Content\metro\images\x-box.png" />
+    <Content Include="Content\metro\images\x.jpg" />
+    <Content Include="Content\metro\images\zadorozhnyi.jpg" />
+    <Content Include="Content\metro\js\docs.js" />
+    <Content Include="Content\metro\js\ga.js" />
+    <Content Include="Content\metro\js\jquery-2.1.3.min.js" />
+    <Content Include="Content\metro\js\jquery.dataTables.min.js" />
+    <Content Include="Content\metro\js\metro.js" />
+    <Content Include="Content\metro\js\prettify\lang-apollo.js" />
+    <Content Include="Content\metro\js\prettify\lang-basic.js" />
+    <Content Include="Content\metro\js\prettify\lang-clj.js" />
+    <Content Include="Content\metro\js\prettify\lang-css.js" />
+    <Content Include="Content\metro\js\prettify\lang-dart.js" />
+    <Content Include="Content\metro\js\prettify\lang-erlang.js" />
+    <Content Include="Content\metro\js\prettify\lang-go.js" />
+    <Content Include="Content\metro\js\prettify\lang-hs.js" />
+    <Content Include="Content\metro\js\prettify\lang-lisp.js" />
+    <Content Include="Content\metro\js\prettify\lang-llvm.js" />
+    <Content Include="Content\metro\js\prettify\lang-lua.js" />
+    <Content Include="Content\metro\js\prettify\lang-matlab.js" />
+    <Content Include="Content\metro\js\prettify\lang-ml.js" />
+    <Content Include="Content\metro\js\prettify\lang-mumps.js" />
+    <Content Include="Content\metro\js\prettify\lang-n.js" />
+    <Content Include="Content\metro\js\prettify\lang-pascal.js" />
+    <Content Include="Content\metro\js\prettify\lang-proto.js" />
+    <Content Include="Content\metro\js\prettify\lang-r.js" />
+    <Content Include="Content\metro\js\prettify\lang-rd.js" />
+    <Content Include="Content\metro\js\prettify\lang-scala.js" />
+    <Content Include="Content\metro\js\prettify\lang-sql.js" />
+    <Content Include="Content\metro\js\prettify\lang-tcl.js" />
+    <Content Include="Content\metro\js\prettify\lang-tex.js" />
+    <Content Include="Content\metro\js\prettify\lang-vb.js" />
+    <Content Include="Content\metro\js\prettify\lang-vhdl.js" />
+    <Content Include="Content\metro\js\prettify\lang-wiki.js" />
+    <Content Include="Content\metro\js\prettify\lang-xq.js" />
+    <Content Include="Content\metro\js\prettify\lang-yaml.js" />
+    <Content Include="Content\metro\js\prettify\prettify.css" />
+    <Content Include="Content\metro\js\prettify\prettify.js" />
+    <Content Include="Content\metro\js\prettify\run_prettify.js" />
+    <Content Include="Content\metro\js\select2.min.js" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\metro\fonts\metro.eot" />
+    <Content Include="Content\metro\fonts\metro.ttf" />
+    <Content Include="Content\metro\fonts\metro.woff" />
+    <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.1.0.debug.js" />
+    <Content Include="Scripts\knockout-2.1.0.js" />
+    <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Images\accent.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\heroAccent.png" />
+    <Content Include="Images\orderedList0.png" />
+    <Content Include="Images\orderedList1.png" />
+    <Content Include="Images\orderedList2.png" />
+    <Content Include="Images\orderedList3.png" />
+    <Content Include="Images\orderedList4.png" />
+    <Content Include="Images\orderedList5.png" />
+    <Content Include="Images\orderedList6.png" />
+    <Content Include="Images\orderedList7.png" />
+    <Content Include="Images\orderedList8.png" />
+    <Content Include="Images\orderedList9.png" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Sesion\Login.cshtml" />
+    <Content Include="Views\EntidadConvocante\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Secund.BE\Secund.BE.csproj">
+      <Project>{3c8844ac-56d8-48a6-a409-fd3326104695}</Project>
+      <Name>Secund.BE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Secund.BL\Secund.BL.csproj">
+      <Project>{c6383503-73cd-492b-b44f-af8ef9125baa}</Project>
+      <Name>Secund.BL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:29929/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

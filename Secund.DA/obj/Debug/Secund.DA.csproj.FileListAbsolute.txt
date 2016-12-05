@@ -1,0 +1,15 @@
+D:\Adisson\Secund\Secund.DA\bin\Debug\Secund.DA.dll
+D:\Adisson\Secund\Secund.DA\bin\Debug\Secund.DA.pdb
+D:\Adisson\Secund\Secund.DA\bin\Debug\MySql.Data.dll
+D:\Adisson\Secund\Secund.DA\bin\Debug\Secund.BE.dll
+D:\Adisson\Secund\Secund.DA\bin\Debug\Secund.BE.pdb
+D:\Adisson\Secund\Secund.DA\obj\Debug\Secund.DA.csprojResolveAssemblyReference.cache
+D:\Adisson\Secund\Secund.DA\obj\Debug\Secund.DA.dll
+D:\Adisson\Secund\Secund.DA\obj\Debug\Secund.DA.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\bin\Debug\Secund.DA.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\bin\Debug\Secund.DA.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\bin\Debug\Secund.BE.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\bin\Debug\Secund.BE.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\obj\Debug\Secund.DA.csprojResolveAssemblyReference.cache
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\obj\Debug\Secund.DA.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.DA\obj\Debug\Secund.DA.pdb

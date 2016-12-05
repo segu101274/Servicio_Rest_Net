@@ -1,0 +1,62 @@
+﻿@using System.Activities.Statements
+@model IEnumerable<Secund.BE.BEEntidadConvocante>
+
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title">
+                <a href="~/">ASP.NET Web API</a>
+            </p>
+        </div>
+    </div>
+</header>
+<div class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<div id="body">
+    <div class="content-wrapper">
+        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer">
+            <table class="dataTable border bordered no-footer" data-role="datatable" data-auto-width="false" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                <thead>
+                    <tr role="row">
+                        <td class="sortable-column sort-asc sorting" style="width: 100px" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="ID: activate to sort column ascending">RUC</td>
+                        <td class="sortable-column sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Machine name: activate to sort column ascending">Razon Social</td>
+                        <td class="sortable-column sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending">Dirección</td>
+                        <td class="sortable-column sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending">Estado</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var oBEEntidadConvocante in Model)
+                    {
+                        <tr role="row" class="odd">
+                            <td>@oBEEntidadConvocante.rucEnt</td>
+                            <td>@oBEEntidadConvocante.desEnt</td>
+                            <td>@oBEEntidadConvocante.dirEnt</td>
+                            <td>@oBEEntidadConvocante.estEnt</td>
+                        </tr>  
+                    }
+                </tbody>
+            </table>            
+        </div>
+    </div>
+</div>

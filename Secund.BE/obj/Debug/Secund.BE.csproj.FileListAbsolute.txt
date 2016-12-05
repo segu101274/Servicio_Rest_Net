@@ -1,0 +1,9 @@
+D:\Adisson\Secund\Secund.BE\bin\Debug\Secund.BE.dll
+D:\Adisson\Secund\Secund.BE\bin\Debug\Secund.BE.pdb
+D:\Adisson\Secund\Secund.BE\obj\Debug\Secund.BE.dll
+D:\Adisson\Secund\Secund.BE\obj\Debug\Secund.BE.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.BE\bin\Debug\Secund.BE.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.BE\bin\Debug\Secund.BE.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.BE\obj\Debug\Secund.BE.csprojResolveAssemblyReference.cache
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.BE\obj\Debug\Secund.BE.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund.BE\obj\Debug\Secund.BE.pdb

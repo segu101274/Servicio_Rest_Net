@@ -1,0 +1,38 @@
+﻿@using System.Activities.Statements
+@model IEnumerable<Secund.BE.BEClientes>
+
+<header>
+    <div class="content-wrapper">
+        <div class="float-left">
+            <p class="site-title">
+                <a href="~/">ASP.NET Web API</a>
+            </p>
+        </div>
+    </div>
+</header>
+<div id="body">
+
+    <div class="content-wrapper">
+        <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer">
+            <table class="dataTable border bordered no-footer" data-role="datatable" data-auto-width="false" id="DataTables_Table_0" role="grid" aria-describedby="DataTables_Table_0_info">
+                <thead>
+                    <tr role="row">
+                        <td class="sortable-column sort-asc sorting" style="width: 100px" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="ID: activate to sort column ascending">RUC</td>
+                        <td class="sortable-column sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Machine name: activate to sort column ascending">Razon Social</td>
+                        <td class="sortable-column sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="Address: activate to sort column ascending">Estado</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var oBECliente in Model)
+                    {
+                        <tr role="row" class="odd">
+                            <td>@oBECliente.rucCli</td>
+                            <td>@oBECliente.razSocCli</td>
+                            <td>@oBECliente.estCli</td>
+                        </tr>  
+                    }
+                </tbody>
+            </table>            
+        </div>
+    </div>
+</div>

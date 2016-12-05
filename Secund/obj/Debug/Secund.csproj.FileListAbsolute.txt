@@ -1,0 +1,123 @@
+D:\Adisson\Secund\Secund\bin\Secund.dll
+D:\Adisson\Secund\Secund\bin\Secund.pdb
+D:\Adisson\Secund\Secund\bin\Antlr3.Runtime.dll
+D:\Adisson\Secund\Secund\bin\AttributeRouting.dll
+D:\Adisson\Secund\Secund\bin\AttributeRouting.Web.dll
+D:\Adisson\Secund\Secund\bin\AttributeRouting.Web.Http.dll
+D:\Adisson\Secund\Secund\bin\AttributeRouting.Web.Http.WebHost.dll
+D:\Adisson\Secund\Secund\bin\EntityFramework.dll
+D:\Adisson\Secund\Secund\bin\Microsoft.Web.Infrastructure.dll
+D:\Adisson\Secund\Secund\bin\Newtonsoft.Json.dll
+D:\Adisson\Secund\Secund\bin\Secund.BE.dll
+D:\Adisson\Secund\Secund\bin\Secund.BL.dll
+D:\Adisson\Secund\Secund\bin\System.Net.Http.Formatting.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Helpers.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Http.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Http.WebHost.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Mvc.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Optimization.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Providers.dll
+D:\Adisson\Secund\Secund\bin\System.Web.Razor.dll
+D:\Adisson\Secund\Secund\bin\System.Web.WebPages.Deployment.dll
+D:\Adisson\Secund\Secund\bin\System.Web.WebPages.dll
+D:\Adisson\Secund\Secund\bin\System.Web.WebPages.Razor.dll
+D:\Adisson\Secund\Secund\bin\WebActivator.dll
+D:\Adisson\Secund\Secund\bin\WebGrease.dll
+D:\Adisson\Secund\Secund\bin\Secund.DA.dll
+D:\Adisson\Secund\Secund\bin\MySql.Data.dll
+D:\Adisson\Secund\Secund\bin\Secund.BE.pdb
+D:\Adisson\Secund\Secund\bin\Secund.BL.pdb
+D:\Adisson\Secund\Secund\bin\AttributeRouting.xml
+D:\Adisson\Secund\Secund\bin\AttributeRouting.Web.xml
+D:\Adisson\Secund\Secund\bin\AttributeRouting.Web.Http.xml
+D:\Adisson\Secund\Secund\bin\AttributeRouting.Web.Http.WebHost.xml
+D:\Adisson\Secund\Secund\bin\Newtonsoft.Json.xml
+D:\Adisson\Secund\Secund\bin\System.Net.Http.Formatting.xml
+D:\Adisson\Secund\Secund\bin\System.Web.Http.xml
+D:\Adisson\Secund\Secund\bin\System.Web.Http.WebHost.xml
+D:\Adisson\Secund\Secund\bin\EntityFramework.xml
+D:\Adisson\Secund\Secund\bin\System.Web.Helpers.xml
+D:\Adisson\Secund\Secund\bin\System.Web.Mvc.xml
+D:\Adisson\Secund\Secund\bin\System.Web.Razor.xml
+D:\Adisson\Secund\Secund\bin\System.Web.WebPages.xml
+D:\Adisson\Secund\Secund\bin\System.Web.WebPages.Deployment.xml
+D:\Adisson\Secund\Secund\bin\System.Web.WebPages.Razor.xml
+D:\Adisson\Secund\Secund\bin\WebActivator.pdb
+D:\Adisson\Secund\Secund\bin\Secund.DA.pdb
+D:\Adisson\Secund\Secund\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Http.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Adisson\Secund\Secund\bin\es\EntityFramework.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Helpers.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Mvc.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Optimization.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Providers.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.Razor.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.WebPages.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Adisson\Secund\Secund\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Adisson\Secund\Secund\obj\Debug\Secund.csprojResolveAssemblyReference.cache
+D:\Adisson\Secund\Secund\obj\Debug\Secund.dll
+D:\Adisson\Secund\Secund\obj\Debug\Secund.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.dll.config
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Antlr3.Runtime.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.Web.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.Web.Http.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.Web.Http.WebHost.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\EntityFramework.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Newtonsoft.Json.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.BE.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.BL.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Net.Http.Formatting.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Helpers.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Http.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Http.WebHost.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Mvc.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Optimization.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Providers.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Razor.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.WebPages.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.WebPages.Razor.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\WebActivator.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\WebGrease.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.DA.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\MySql.Data.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.BE.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.BL.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.Web.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.Web.Http.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\AttributeRouting.Web.Http.WebHost.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Newtonsoft.Json.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Net.Http.Formatting.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Http.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Http.WebHost.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\EntityFramework.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Helpers.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Mvc.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.Razor.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.WebPages.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\System.Web.WebPages.Razor.xml
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\WebActivator.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\Secund.DA.pdb
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Http.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\EntityFramework.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Providers.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.Razor.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\obj\Debug\Secund.csprojResolveAssemblyReference.cache
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\obj\Debug\Secund.dll
+C:\Users\Segundo Vigo\Desktop\UPC\APLICACIONES MOVILES\PROYECTO\SERVICIO\REST\Secund\obj\Debug\Secund.pdb
